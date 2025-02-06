@@ -1,15 +1,15 @@
 # tokyo-olympic-azure-data-engineering-project
 tokyo-olympic-azure-data-engineering-project using azure services 
 
-# Introduction
+## Introduction
 This project focuses on building a data engineering pipeline for analyzing the Tokyo Olympics dataset. The pipeline processes raw data, applies transformations, and loads it into a structured format for analysis. It is deployed on Azure using services like Azure Data Factory, Azure Blob Storage, and Azure Databricks.
 
-# Tech Stack
+## Tech Stack
   * Programming Languages: Python, SQL, PySpark
 
   * Cloud Platform: Microsoft Azure
 
-# Services Used:
+## Services Used:
 
   * Azure Data Factory: Ingests Tokyo Olympics data from data source into Azure Data Lake Storage Gen2.
   * Azure Data Lake Storage Gen2: Stores raw and processed Olympic datasets for analysis.
@@ -18,12 +18,12 @@ This project focuses on building a data engineering pipeline for analyzing the T
 
  * Other Tools: Pandas, Spark, Airflow, Terraform (optional for infra)
 
-# Architecture Diagram
+## Architecture Diagram
 ![image](https://github.com/user-attachments/assets/31f70ae4-a244-42cf-913a-4a9851d40722)
 
-# Setup & Installation
+## Setup & Installation
 
-## Pre-requisites
+### Pre-requisites
 
   * Azure Subscription
   
@@ -33,7 +33,7 @@ This project focuses on building a data engineering pipeline for analyzing the T
   
   * Azure CLI Installed
 
-# Data Pipeline Workflow
+## Data Pipeline Workflow
 
 1. Setup Azure Environment
 Create Azure Free Subscription Account to access Azure services.
@@ -58,7 +58,7 @@ Store transformed data in Azure SQL Database or Azure Synapse Analytics for furt
 Enable querying and reporting for insights like medal distribution, country-wise performance, and trends.
 
 
-# Results & Insights
+## Results & Insights
 
   * Top-performing countries based on medals
   * Athlete-wise performance trends
